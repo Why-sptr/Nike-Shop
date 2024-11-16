@@ -54,32 +54,32 @@
 }
 
 .category-scroll {
-  overflow-x: auto; /* Aktifkan scroll horizontal */
-  scrollbar-width: none; /* Hilangkan scrollbar di Firefox */
-  -ms-overflow-style: none; /* Hilangkan scrollbar di Internet Explorer */
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
   gap: 1rem;
   padding: 1rem 0;
-  cursor: grab; /* Kursor tangan saat elemen tidak digerakkan */
+  cursor: grab;
 }
 
 .category-scroll:active {
-  cursor: grabbing; /* Kursor berubah saat drag */
+  cursor: grabbing;
 }
 
 .category-scroll::-webkit-scrollbar {
-  display: none; /* Hilangkan scrollbar di Chrome, Safari, Edge */
+  display: none;
 }
 
 .category-scroll button {
-  min-width: 120px; /* Atur ukuran minimal tombol */
+  min-width: 120px;
   padding: 10px 15px;
-  border-radius: 20px; /* Buat tombol melingkar */
-  font-size: 14px; /* Atur ukuran font */
-  flex-shrink: 0; /* Mencegah tombol mengecil */
+  border-radius: 20px;
+  font-size: 14px;
+  flex-shrink: 0;
 }
 
 .category-scroll button:hover {
-  background-color: #6c757d; /* Warna hover untuk tombol */
+  background-color: #6c757d;
   color: #fff;
 }
 

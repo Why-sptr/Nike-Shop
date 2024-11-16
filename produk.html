@@ -223,26 +223,26 @@
     categoryScroll.addEventListener('mousedown', (e) => {
         isDown = true;
         categoryScroll.classList.add('active');
-        categoryScroll.style.cursor = 'grabbing'; // Ubah kursor saat drag dimulai
+        categoryScroll.style.cursor = 'grabbing';
         startX = e.pageX - categoryScroll.offsetLeft;
         scrollLeft = categoryScroll.scrollLeft;
     });
 
     categoryScroll.addEventListener('mouseleave', () => {
         isDown = false;
-        categoryScroll.style.cursor = 'grab'; // Ubah kursor kembali
+        categoryScroll.style.cursor = 'grab';
     });
 
     categoryScroll.addEventListener('mouseup', () => {
         isDown = false;
-        categoryScroll.style.cursor = 'grab'; // Ubah kursor kembali
+        categoryScroll.style.cursor = 'grab';
     });
 
     categoryScroll.addEventListener('mousemove', (e) => {
         if (!isDown) return;
         e.preventDefault();
         const x = e.pageX - categoryScroll.offsetLeft;
-        const walk = (x - startX) * 1; // Kecepatan scroll
+        const walk = (x - startX) * 1;
         categoryScroll.scrollLeft = scrollLeft - walk;
     });
 
@@ -253,7 +253,7 @@
 
     categoryScroll.addEventListener('touchmove', (e) => {
         const x = e.touches[0].pageX;
-        const walk = (x - startX) * 2; // Kecepatan scroll
+        const walk = (x - startX) * 1;
         categoryScroll.scrollLeft -= walk;
     });
 
