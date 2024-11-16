@@ -1,0 +1,88 @@
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.cta img{
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.btn-primary {
+  background-color: #344A58 !important;
+  border: none !important;
+  border-radius: 30px !important;
+  padding: 10px 20px !important;
+}
+.btn-primary:hover {
+  background-color: #162026 !important;
+}
+
+.btn-secondary {
+  background-color: #648193 !important;
+  border: none !important;
+  border-radius: 30px !important;
+  padding: 10px 20px !important;
+}
+
+.btn-secondary:hover {
+  background-color: #344A58 !important;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.search{
+  border-radius: 30px !important;
+  padding: 10px 30px !important;
+  text-align: left !important;
+}
+
+.active {
+  font-weight: 700 !important;
+  color: #162026 !important;
+}
+
+.testi {
+  max-width: 40px;
+}
+
+.category-scroll {
+  overflow-x: auto; /* Aktifkan scroll horizontal */
+  scrollbar-width: none; /* Hilangkan scrollbar di Firefox */
+  -ms-overflow-style: none; /* Hilangkan scrollbar di Internet Explorer */
+  gap: 1rem;
+  padding: 1rem 0;
+  cursor: grab; /* Kursor tangan saat elemen tidak digerakkan */
+}
+
+.category-scroll:active {
+  cursor: grabbing; /* Kursor berubah saat drag */
+}
+
+.category-scroll::-webkit-scrollbar {
+  display: none; /* Hilangkan scrollbar di Chrome, Safari, Edge */
+}
+
+.category-scroll button {
+  min-width: 120px; /* Atur ukuran minimal tombol */
+  padding: 10px 15px;
+  border-radius: 20px; /* Buat tombol melingkar */
+  font-size: 14px; /* Atur ukuran font */
+  flex-shrink: 0; /* Mencegah tombol mengecil */
+}
+
+.category-scroll button:hover {
+  background-color: #6c757d; /* Warna hover untuk tombol */
+  color: #fff;
+}
+
+.category-active{
+  background-color: #344A58 !important;
+}

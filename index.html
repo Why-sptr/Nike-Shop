@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beranda</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html">
+                <img src="Image/Nike-Logo.png" alt="" style="width: 50px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/produk.html">Produk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/profil.html">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/saran.html">Saran</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2 border-0 shadow-sm search" type="search"
+                        placeholder="Ketik untuk mencari..." aria-label="Search">
+                    <button class="btn btn-primary" type="submit">Cari</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <!-- Banner -->
+        <div class="container mb-5 mt-5">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Image/Banner Nike 1.png" class="d-block w-100 img-fluid border rounded-3"
+                            alt="sepatu">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Image/Banner Nike 2.png" class="d-block w-100 img-fluid border rounded-3"
+                            alt="sepatu">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Image/Banner Nike 3.png" class="d-block w-100 img-fluid border rounded-3"
+                            alt="sepatu">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Hero 1 -->
+        <div class="container mb-5">
+            <div class="row align-items-center g-5">
+                <div class="col-12 col-md-4">
+                    <img src="/Image/Hero Nike.png" class="img-fluid" alt="Hero Nike">
+                </div>
+                <div class="col-12 col-md-8">
+                    <h4 class="fw-bold">Tampil Elegan dengan Sepatu Nike Blue Edition</h4>
+                    <p class="text-secondary">Temukan kenyamanan dan gaya dalam setiap langkah. Nike Blue Edition
+                        dirancang
+                        untuk Anda yang ingin tampil percaya diri dengan sentuhan modern dan elegan. Cocok untuk
+                        aktivitas
+                        sehari-hari atau momen spesial Anda.</p>
+                    <button type="button" class="btn btn-primary">Beli Sekarang</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hero 2 -->
+        <div class="container mb-5">
+            <div class="row align-items-center g-5 flex-column-reverse flex-md-row">
+                <div class="col-12 col-md-8">
+                    <h4 class="fw-bold">Kesempurnaan Gaya dengan Sepatu Nike Rose Gold</h4>
+                    <p class="text-secondary">Tambahkan sentuhan keanggunan pada penampilan Anda. Nike Rose Gold
+                        menghadirkan
+                        desain yang stylish dan kenyamanan maksimal, sempurna untuk melengkapi outfit casual maupun
+                        formal
+                        Anda.</p>
+                    <button type="button" class="btn btn-primary">Beli Sekarang</button>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/Image/Hero Nike 2.png" class="img-fluid" alt="Hero Nike 2">
+                </div>
+            </div>
+        </div>
+        <!-- Produk Unggulan -->
+        <div class="container mb-5">
+            <h4 class="text-center fw-bold mb-4">Produk Unggulan</h4>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm bg-light text-center">
+                        <img src="Image/Air Jordan 1 Mid SE.png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title fw-bold">Air Jordan 1 Mid SE</h5>
+                            <h6 class="card-title text-secondary fw-bold">RP 100,000</h6>
+                            <p class="card-text text-secondary">Kombinasi warna klasik dan desain premium untuk tampil percaya diri setiap hari.</p>
+                            <a href="#" class="btn btn-primary mt-auto">Masukan Keranjang</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm bg-light text-center">
+                        <img src="Image/Air Jordan 1 Mid SE (2).png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title fw-bold">Air Jordan 1 Mid SE</h5>
+                            <h6 class="card-title text-secondary fw-bold">RP 100,000</h6>
+                            <p class="card-text text-secondary">Material berkualitas tinggi untuk kenyamanan dan
+                                performa maksimal.</p>
+                            <a href="#" class="btn btn-primary mt-auto">Masukan Keranjang</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm bg-light text-center">
+                        <img src="Image/Air Jordan 1 Mid SE (3).png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title fw-bold">Air Jordan 1 Mid SE</h5>
+                            <h6 class="card-title text-secondary fw-bold">RP 100,000</h6>
+                            <p class="card-text text-secondary">Desain sporty dengan sentuhan modern, cocok untuk segala
+                                gaya Anda.</p>
+                            <a href="#" class="btn btn-primary mt-auto">Masukan Keranjang</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm bg-light text-center">
+                        <img src="Image/Air Jordan 1 Low SE.png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title fw-bold">Air Jordan 1 Low SE</h5>
+                            <h6 class="card-title text-secondary fw-bold">RP 100,000</h6>
+                            <p class="card-text text-secondary">Siluet rendah dengan estetika minimalis untuk gaya
+                                santai yang elegan.</p>
+                            <a href="#" class="btn btn-primary mt-auto">Masukan Keranjang</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm bg-light text-center">
+                        <img src="Image/Air Jordan 1 Low SE (2).png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title fw-bold">Air Jordan 1 Low SE</h5>
+                            <h6 class="card-title text-secondary fw-bold">RP 100,000</h6>
+                            <p class="card-text text-secondary">Paduan warna cerah dan material lembut untuk kenyamanan
+                                sepanjang hari.</p>
+                            <a href="#" class="btn btn-primary mt-auto">Masukan Keranjang</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm bg-light text-center">
+                        <img src="Image/Air Jordan 1 Low SE _Wave_.png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title fw-bold">Air Jordan 1 Low SE Wave</h5>
+                            <h6 class="card-title text-secondary fw-bold">RP 100,000</h6>
+                            <p class="card-text text-secondary">Inspirasi desain gelombang dengan detail unik yang
+                                menarik perhatian.</p>
+                            <a href="#" class="btn btn-primary mt-auto">Masukan Keranjang</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm bg-light text-center">
+                        <img src="Image/Air Jordan 1 Elevate High.png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title fw-bold">Air Jordan 1 Elevate High</h5>
+                            <h6 class="card-title text-secondary fw-bold">RP 100,000</h6>
+                            <p class="card-text text-secondary">Gaya tinggi yang bold, sempurna untuk tampil menonjol
+                                setiap saat.
+                            </p>
+                            <a href="#" class="btn btn-primary mt-auto">Masukan Keranjang</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm bg-light text-center">
+                        <img src="Image/Air Jordan 1 Elevate High (2).png" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title fw-bold">Air Jordan 1 Elevate High</h5>
+                            <h6 class="card-title text-secondary fw-bold">RP 100,000</h6>
+                            <p class="card-text text-secondary">Kombinasi warna unik untuk ekspresi gaya yang berbeda.
+                            </p>
+                            <a href="#" class="btn btn-primary mt-auto">Masukan Keranjang</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimoni -->
+        <div class="container mb-5">
+            <h4 class="fw-bold text-center">Testimoni</h4>
+            <p class="text-center text-secondary">Dapatkan produk terbaik yang sudah terbukti memuaskan pelanggan kami.
+                Dengan kualitas unggulan dan kenyamanan luar biasa, Anda tidak perlu ragu untuk memilih kami. Jadilah
+                bagian dari mereka yang telah merasakan keunggulan produk kami.</p>
+            <div class="row row-cols-1 row-cols-md-3 g-4 d-flex align-items-stretch">
+                <div class="col">
+                    <div class="p-4 bg-light rounded shadow h-100 d-flex flex-column justify-content-between"
+                        style="border: none;">
+                        <p class="mb-3 text-secondary">
+                            "Produk di sini sangat berkualitas! Dari pertama kali membeli, saya langsung merasakan
+                            kenyamanan yang luar biasa. Harganya juga sangat terjangkau."
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <img src="Image/Testi 1.png" alt="Sheryl Berge" class="rounded-circle me-3 testi">
+                            <div>
+                                <h6 class="mb-0">Sheryl Berge</h6>
+                                <small>Verified Customer</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-4 bg-light rounded shadow h-100 d-flex flex-column justify-content-between"
+                        style="border: none;">
+                        <p class="mb-3 text-secondary">
+                            "Sebagai seorang atlet, saya memerlukan perlengkapan yang bisa menunjang performa saya.
+                            Produk dari toko ini benar-benar memenuhi ekspektasi saya!"
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <img src="Image/Testi 2.png" alt="Leland Kiehn" class="rounded-circle me-3 testi">
+                            <div>
+                                <h6 class="mb-0">Leland Kiehn</h6>
+                                <small>Professional Athlete</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-4 bg-light rounded shadow h-100 d-flex flex-column justify-content-between"
+                        style="border: none;">
+                        <p class="mb-3 text-secondary">
+                            "Saya sangat puas dengan pembelian saya. Kualitas produk di toko ini luar biasa, dan
+                            pelayanannya juga sangat ramah. Sangat direkomendasikan!"
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <img src="Image/Testi 3.png" alt="Peter Reynolds" class="rounded-circle me-3 testi">
+                            <div>
+                                <h6 class="mb-0">Peter Reynolds</h6>
+                                <small>Verified Customer</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA -->
+        <div class="container mb-5 text-center">
+            <div class="row g-0 shadow bg-light">
+                <div class="col-12 col-md-8 p-3 d-flex flex-column justify-content-center align-items-center">
+                    <h4 class="fw-bold">Jadikan Langkah Anda Lebih Berarti!</h4>
+                    <p class="text-secondary">Dengan produk berkualitas tinggi dan desain yang menawan, Anda akan selalu
+                        percaya diri dalam setiap langkah. Dapatkan kenyamanan dan gaya terbaik hanya di sini!</p>
+                    <button type="button" class="btn btn-primary">Lihat Koleksi Kami</button>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/Image/Air Jordan 1 Elevate High (3).png" class="img-fluid" alt="CTA">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="py-3" style="background-color: #344A58 !important;">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="/index.html" class="nav-link px-2 text-body-secondary"
+                    style="color: white !important;">Beranda</a></li>
+            <li class="nav-item"><a href="/produk.html" class="nav-link px-2 text-body-secondary"
+                    style="color: white !important;">Produk</a></li>
+            <li class="nav-item"><a href="/profil.html" class="nav-link px-2 text-body-secondary"
+                    style="color: white !important;">Profil</a></li>
+            <li class="nav-item"><a href="/saran.html" class="nav-link px-2 text-body-secondary"
+                    style="color: white !important;">Saran</a></li>
+        </ul>
+        <p class="text-center text-body-secondary" style="color: white !important;">© 2024 Wahyu Cahyo Saputra, 23670152
+        </p>
+    </footer>
+</body>
+
+</html>
